@@ -12,7 +12,7 @@ class Payroll
     puts "How many employees will you add? Please Enter a valid number between 1 to 999"
 	employee_number = gets.chomp.to_i
 	employee_number.times do	  
-	  puts "Please add a code and name employee, like this: Josue Sanchez, 3000"
+	  puts "Please add an employee's name and salary, like this: Josue Sanchez, 3000"
 	  employee = gets.chomp.split(",")
 	  name = employee[0].strip
 	  @employees[name] = employee[1].strip
