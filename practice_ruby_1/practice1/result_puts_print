@@ -1,0 +1,12 @@
+print string1 use print, print string1 use puts
+print string2 use print, print string2 use puts
+print string3 use print, print string3 use puts
+print string4 use print, print string4 use puts
+print string5 use print, print string5 use puts
+print string6 use print, print string6 use puts
+print string7 use print, print string7 use puts
+
+differences:
+ print: use the same line at the end of message.
+ puts: add new line at the end of message, also convert everything into a string.(by calling to_s)
+ 
